@@ -1,4 +1,4 @@
-package io.github.e_gradivo.naloge.naloga2;
+package io.github.e_gradivo.io.naloge.naloga2;
 
 public class Tocka2D {
     private double x;
@@ -9,8 +9,8 @@ public class Tocka2D {
     }
 
     public Tocka2D(double x, double y) {
-        getX(x);
-        getY(y);
+        setX(x);
+        setY(y);
     }
 
     public double getX() {

@@ -1,4 +1,4 @@
-package io.github.e_gradivo.naloge.naloga2;
+package io.github.e_gradivo.io.naloge.naloga2;
 
 public class Tocka3D extends Tocka2D {
     private double z;
@@ -23,8 +23,8 @@ public class Tocka3D extends Tocka2D {
     public String toString() {
         return String.format(
             "Razdalja do tocke x: %f, razdalja do tocke y: %f, razdalja do tocke z: %f.",
-            x,
-            y,
+            getX(),
+            getY(),
             z
         );
     }

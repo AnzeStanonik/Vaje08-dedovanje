@@ -1,4 +1,4 @@
-package io.github.e_gradivo.naloge.naloga1;
+package io.github.e_gradivo.io.naloge.naloga1;
 
 public class Krog {
     private double polmer;

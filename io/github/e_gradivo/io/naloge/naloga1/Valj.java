@@ -1,4 +1,4 @@
-package io.github.e_gradivo.naloge.naloga1;
+package io.github.e_gradivo.io.naloge.naloga1;
 
 public class Valj extends Krog {
     private double visina;
@@ -22,11 +22,11 @@ public class Valj extends Krog {
         return povrsina;
     }
 
-    public double toString() {
+    public String toString() {
         return String.format(
             "Valj z visino %f cm in polmer %f cm.",
             visina,
-            getpolmer()
+            getPolmer()
         );
     }
 }
